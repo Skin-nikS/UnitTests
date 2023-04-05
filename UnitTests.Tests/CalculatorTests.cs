@@ -11,7 +11,7 @@ namespace UnitTests.Tests
     public class CalculatorTests
     {
         [Fact] 
-        public void Subtraction_MustReturnCorrectValue()
+        public void Calc_MustReturnCorrectValue()
         {
             var calculator = new Calculator();
             calculator.Miltiplication(2, 4);
